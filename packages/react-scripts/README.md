@@ -1,4 +1,7 @@
-# react-scripts
+# react-scripts-sass
+
+Facebook react scripts with SASS compatibility.
+Use it with `create-react-app app --scripts-version react-scripts-sass`
 
 This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).<br>
 Please refer to its documentation:
