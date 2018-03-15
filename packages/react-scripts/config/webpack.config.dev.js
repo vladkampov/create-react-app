@@ -134,11 +134,8 @@ module.exports = {
               formatter: eslintFormatter,
               eslintPath: require.resolve('eslint'),
               // @remove-on-eject-begin
-              baseConfig: {
-                extends: [require.resolve('@geeny/eslint-config-geeny')],
-              },
               ignore: false,
-              useEslintrc: false,
+              useEslintrc: true,
               // @remove-on-eject-end
             },
             loader: require.resolve('eslint-loader'),
